@@ -36,13 +36,16 @@ This script is designed to capture and analyze network packets from a specified 
 ## Usage
 The script can be run from the command line using the following syntax:
 ```bash
-python packet_analyzer.py -i <interface> -c <count>
+python3 packet_analyzer.py -i <interface> -c <count>
 ```
 Replace <interface> with the name of the network interface you want to capture packets from, and <count> with the number of packets you want to capture.
 ## Example Use Cases
 
     Capture 10 packets from the wlan0 interface: python packet_analyzer.py -i wlan0 -c 10
     Capture 100 packets from the eth0 interface: python packet_analyzer.py -i eth0 -c 100
+
+<img width="896" height="624" alt="Image" src="https://github.com/user-attachments/assets/8a364ca6-a66a-4185-a7c8-178d3b3d826e" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9d92a9b5-f1c2-48c6-ba6b-21923e432992" />
 
 ## Contributing
 
